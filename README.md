@@ -23,4 +23,4 @@ php -S localhost:8080
 *В файле frontend/config/db.php установите свои параметры*
 
 ## Скриншот
-[![Screenshot](https://github.com/alexflitcher1/cheatsbuy/screenshot.png "Screenshot")](http://github.com/alexflitcher1/cheatsbuy/screenshot.png "Screenshot")
+[![Screenshot](https://github.com/alexflitcher1/cheatsbuy/blob/main/screenshot.png "Screenshot")](https://github.com/alexflitcher1/cheatsbuy/blob/main/screenshot.png "Screenshot")
