@@ -149,7 +149,9 @@ class UserController extends Controller
     public function actionShow($id = 0)
     {
         $model = new User();
-        $code = $model->isUserExists($id) ? $model->getId($id): "Пользователя несуществует";
+        $code =
+        $model->isUserExists($id) ?
+        $model->getId($id) : "Пользователя несуществует";
         return $this->render('show', ['id' => $id,
         'status' => $code]);
     }
