@@ -18,11 +18,15 @@
     <div class="ud-img">
       <img src="<?=Url::to(["/user_gallary/users_avatar/{$img}"])?>"
       alt="Profile photo">
-      <?php $form = ActiveForm::begin() ?>
-      <?= $form->field($modelImage, 'image')->fileInput() ?>
-      <button>Загрузить</button>
-      <?php ActiveForm::end() ?>
-
+      <div class="ud-show-hide">
+        <a href="#">Поменять аватар &#9660;</a>
+      </div>
+      <div class="ud-change" style="display: none;">
+        <?php $form = ActiveForm::begin() ?>
+          <?= $form->field($modelImage, 'image')->fileInput() ?>
+          <button class="ud-image-load">Загрузить</button>
+        <?php ActiveForm::end() ?>
+      </div>
     </div>
     <div class="ud-id">
       USERID <b><?=$id?></b>
@@ -45,6 +49,14 @@
 </div>
 <?php
   $js = <<<JS
+    $('.ud-show-hide').click(function(){
+        if ($('.ud-change').attr("style") == "display: none;")
+          $('.ud-show-hide a').html("Скрыть &#9650;");
+        else
+          $('.ud-show-hide a').html("Поменять аватар &#9660;");
+        $('.ud-change').slideToggle(300);
+        return false;
+      });
       $('.ch-data').click(function() {
         if (this.id == "ch-email") {
           $('.modal-title').html("EMAIL CHANGE");
