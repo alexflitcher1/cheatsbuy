@@ -106,8 +106,21 @@ class User extends Model
     {
         $user = Users::find()->where(['username' => $this->username])->one();
         $user->img = $path;
-        $user->save();
-        return true;
+        if ($user->save())
+            return true;
+        return false;
+    }
+
+    public function changePassword($password)
+    {
+        $cookies = Yii::$app->request->cookies;
+        $login = $cookies->getValue("username");
+        $user = Users::find()->where(['username' => $login])->one();
+        $user->password_hash =
+        password_hash($password, PASSWORD_DEFAULT);
+        if ($user->save())
+            return true;
+        return false;
     }
 
     public function exit()
