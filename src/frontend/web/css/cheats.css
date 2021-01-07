@@ -950,14 +950,36 @@ a {
 .control-label:hover {
   border: 2px solid #000;
 }
+
 .ud-change #uploadimage-image {
   display: none;
 }
+
 .ud-change #w0 {
   width: 50%;
   padding: 0;
   margin: 0;
   align-items: normal !important;
+}
+
+.change-password-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#old_pass, #new_pass, #again_new_pass, .pass_change {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+#old_pass:focus, #new_pass:focus, #again_new_pass:focus, .pass_change:hover {
+  border: 3px solid #555;
 }
 
 /*# sourceMappingURL=cheats.css.map */

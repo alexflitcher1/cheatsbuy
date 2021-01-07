@@ -64,7 +64,8 @@ class UserController extends Controller
                 'expire' => time()+100000
               ]));
               Yii::$app->response->redirect("/cheats/index");
-              return $this->render('logine', ['model' => $model, 'err' => $error]);
+              return $this->render('logine',
+              ['model' => $model, 'err' => $error]);
           }
           return $this->render('logine', ['model' => $model, 'err' => $error]);
       }
@@ -164,5 +165,19 @@ class UserController extends Controller
             return;
         }
         return $this->render('upload', ['model' => $model]);
+    }
+
+    public function actionChangeepass($hash, $new_pass)
+    {
+        $this->layout = "index2";
+        $model = new User();
+        $cookies = Yii::$app->request->cookies;
+        $login = $cookies->getValue("username");
+        $res = $model->checkLogin($login, $hash);
+        if ($res) $result = $model->changePassword($new_pass);
+        else return $this->render('changepass', ['result' => "Неправильный пароль"]);
+        $result = $result ?
+        "Ваш пароль успешно изменён": "Провал! Попробуйте ещё раз";
+        return $this->render('changepass', ['result' => $result]);
     }
 }
