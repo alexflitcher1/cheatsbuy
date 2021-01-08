@@ -11,6 +11,10 @@
     $img = $model->img;
     $nowdate = date("Y-m-d H:i:s", time());
     $this->title = "Кабинет";
+    $cookies = Yii::$app->request->cookies;
+    if (!$cookies->getValue("username"))
+      Yii::$app->response->redirect(Url::to('/cheats/errorp?error=3'));
+
 ?>
 <div class="cabinet">
 
