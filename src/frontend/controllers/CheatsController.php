@@ -6,9 +6,9 @@ use yii\web\Controller;
 use yii\web\Cookie;
 use Yii;
 
-class CheatsController extends Controller 
+class CheatsController extends Controller
 {
-	public function actions() 
+	public function actions()
 	{
 		return [
 			'error' => [
@@ -16,8 +16,8 @@ class CheatsController extends Controller
 			],
 		];
 	}
-	
-	public function actionIndex() 
+
+	public function actionIndex()
 	{
 		$this->layout = "index";
 		$this->view->registerMetaTag(
@@ -25,6 +25,20 @@ class CheatsController extends Controller
         );
 		return $this->render('index');
 	}
-	
-	
+
+	public function actionErrorp($error = 1)
+	{
+        switch ($error) {
+				    case 1: $error = "Страницы не существует"; break;
+				    case 2: $error = "БЭНТЛИ, БЕНЗ И БУМЕР, МУТИМ ЭТИ МОЛЛИ"; break;
+						case 3:
+						    $error
+								=
+								"Чтобы пользоваться личным кабинетом, нужно зарегистрироваться";
+								break;
+				}
+				return $this->render("rpage", ['error' => $error]);
+	}
+
+
 }
