@@ -9,6 +9,7 @@
     $email = $model->email;
     $time_reg = $model->time_reg;
     $img = $model->img;
+    $money = $model->money;
     $nowdate = date("Y-m-d H:i:s", time());
     $this->title = "Кабинет";
     $cookies = Yii::$app->request->cookies;
@@ -38,6 +39,11 @@
     <div class="ud-username">
       Логин <b><?=$username?></b>
     </div>
+    <div class="ud-money">
+      Счёт <b><?=$money?> рублей</b>
+      <a class="ch-data" id="ch-putpay" href="/pay/put">Пополнить</a> /
+      <a class="ch-data" id="ch-getpay" href="/pay/get">Снять</a>
+    </div>
     <div class="ud-email">
       Почта <b><?=$email?></b> <a class="ch-data" id="ch-email" href="#openModal">Изменить</a>
     </div>
@@ -52,6 +58,9 @@
    <div class="cab-exit">
       <a class="cab-exit-link" href="/user/exit">Выйти</a>
    </div>
+</div>
+<div class="cab-delete">
+  <a style="color: red;" class="ch-data" href="#openModal" id="ch-delete">Удалить аккаунт</a>
 </div>
 </div>
 <?php
@@ -109,6 +118,22 @@
           }
           });
         }
+        if (this.id == "ch-delete") {
+         $('.modal-title').html("<span style='color: red;'>ВНИМАНИЕ</span>");
+         $('.input-will-change').html("<span style='color: red;'>При удалении аккаунта, восстановить его будет НЕВОЗМОЖНО!<br>Вы уверены, что хотите удалить аккаунт?<br><button id='yes_delete'>Удалить</delete></span>");
+         $('#yes_delete').click(function() {
+           yes_no = confirm("Последний этап! Вы уверены, что хотите удалить аккаунт?");
+           if (yes_no) {
+             $.ajax({
+               url: '/user/delete',
+               method: 'GET',
+             }).done(function(data) {
+               var data = data;
+               $('.result-do').html(data);
+             });
+           }
+         });
+       }
       });
 JS;
   $this->registerJs($js);
