@@ -4,10 +4,11 @@ namespace common\models;
 use Yii;
 use yii\base\Model;
 use frontend\models\Users;
+use frontend\models\Salles;
 
 class User extends Model
 {
-    public $id, $username, $password_hash, $email, $time_reg, $img;
+    public $id, $username, $password_hash, $email, $time_reg, $img, $money;
     public $referer_id = 0;
 
     public function readyData()
@@ -21,6 +22,7 @@ class User extends Model
           $this->time_reg = $data['time_reg'];
           $this->referer_id = $data['referer_id'];
           $this->img = $data['img'];
+          $this->money = $data['money'];
 
           return true;
       }
@@ -38,6 +40,7 @@ class User extends Model
           'time_reg' => $this->time_reg,
           'referer_id' => $this->referer_id,
           'img' => $this->img,
+          'money' => $this->money,
         ];
 
         return $data;
@@ -61,6 +64,7 @@ class User extends Model
             $pdo->email = $this->email;
             $pdo->time_reg = $this->time_reg;
             $pdo->referer_id = $this->referer_id;
+            $pdo->money = 0.0;
             $pdo->img = "default.png";
             $pdo->save();
 
@@ -128,6 +132,22 @@ class User extends Model
         $cookies = Yii::$app->response->cookies;
         $cookies->remove('auth');
         $cookies->remove('username');
+    }
+
+    public function deleteAccount()
+    {
+        $error = 0;
+        $user = Users::find()->where(['username' => $this->username])->one();
+        if ($user) {
+            $hacks = Salles::find()->
+            where(['author_id' => $user->id])->all();
+            for ($i = 0; $i < count($hacks); $i++)
+                $hacks[$i]->delete();
+            $user->delete();
+            $this->exit();
+        } else
+              $error = 1;
+        return $error;
     }
 
     public function isUserExists($id)

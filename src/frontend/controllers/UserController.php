@@ -167,6 +167,17 @@ class UserController extends Controller
         return $this->render('upload', ['model' => $model]);
     }
 
+    public function actionDelete()
+    {
+        $this->layout = "index2";
+        $model = new User();
+        $cookies = Yii::$app->request->cookies;
+        $model->username = $cookies->getValue("username");
+        $model->deleteAccount();
+
+        return $this->render('delete');
+    }
+
     public function actionChangeepass($hash, $new_pass)
     {
         $this->layout = "index2";

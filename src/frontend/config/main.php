@@ -19,6 +19,7 @@ return [
             'showScriptName' => false,
             'rules' => [
                 '<controller:(cheats|market|user|site)>/<action:(\w+)>' => '<controller>/<action>',
+                '' => 'cheats/index',
             ],
         ],
         'db' => $db,

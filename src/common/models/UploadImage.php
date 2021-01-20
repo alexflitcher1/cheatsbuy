@@ -18,11 +18,15 @@ class UploadImage extends Model{
 
     public function upload(){
         if($this->validate()){
-            $this->image->saveAs("user_gallary/users_avatar/{$this->image->baseName}.{$this->image->extension}");
+            $cookies = \Yii::$app->request->cookies;
+            $cookies->getValue("username");
+            $newImageName =
+            time() . "_" . $cookies->getValue("username") . "_" . "avatar";
+            $this->image->saveAs("user_gallary/users_avatar/{$newImageName}.{$this->image->extension}");
         }else{
             return false;
         }
-        return "{$this->image->baseName}.{$this->image->extension}";
+        return "{$newImageName}.{$this->image->extension}";
     }
 
 }
