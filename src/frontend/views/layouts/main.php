@@ -41,10 +41,10 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => Url::t
     <div class="seven-subscribe">
       <div class="seven-sub-cont">
         <div class="seven-sub-title">
-          Подписаться на рассылку
+          Lorem
         </div>
         <div class="seven-sub-desc">
-          Еженедельные новости, скидки, события
+          Lorem, Lorem, Lorem
         </div>
       </div>
       <div class="seven-sub-form">

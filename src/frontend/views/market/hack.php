@@ -56,8 +56,114 @@ $this->title = $label;
     </div>
     <?=$describe?>
   </div>
+  <div class="market-hack-rates">
+    <div class="market-rate">
+      Отзывы
+    </div>
+    <div class="all-rates">
+      <?php for ($i = 0; $i < count($rates); $i++): ?>
+        <div class="rate-block">
+          <div class="rate-block-f">
+            <div class="rate-avatar">
+              <img class="rate-ava" src="<?=Url::to("/user_gallary/users_avatar/{$users_rate[$i]['img']}")?>" alt="Picture">
+            </div>
+          </div>
+          <div class="rate-blocks">
+          <div class="rate-block-s">
+            <div class="rate-name">
+              <?=$users_rate[$i]['username']?>
+            </div>
+            <div class="rate-time">
+              <?=$rates[$i]['time_published']?>
+            </div>
+            <div class="ch-rate-click rate-time">
+              <?php
+                if ($users_rate[$i]['username'] ==
+                !empty(\Yii::$app->request->cookies->getValue("username"))):
+              ?>
+                <a href="#openModal" class="ch-rate-a" data-id="<?=$rates[$i]['id']?>">Изменить</a>
+              <?php
+                endif;
+              ?>
+            </div>
+          </div>
+          <div class="rate-block-t">
+            <div class="rate-stars">
+              <?php for($j = 0; $j < $rates[$i]['stars']; $j++): ?>
+                  &#9733;
+              <?php endfor; ?>
+            </div>
+          </div>
+         </div>
+       </div>
+          <div class="rate-message">
+            <?=$rates[$i]['message']?>
+          </div>
+    <?php endfor; ?>
+    <?php if (!empty(\Yii::$app->request->cookies->getValue("username"))): ?>
+          <div class="market-put-rate">
+            <div class="market-made-rate">
+
+            </div>
+            <div class="market-title-rate">
+              Оставить отзыв
+            </div>
+            <div class="market-input-rate">
+              <form class="market-inp-r">
+                <input class="market-inp-name market-inp" type="text" placeholder="Введите ваше имя" required>
+                <div class="count-stars" data-count=3>
+                  ★★★
+                </div>
+                <input type="range" min="1" max="5" class="market-inp slider_inp market-inp-range">
+                <textarea required class="market-inp-rate market-inp" placeholder="Введите ваш отзыв" rows="8" cols="80"></textarea>
+                <input type="submit" class="market-inp" value="Опубликовать">
+              </form>
+            </div>
+          </div>
+    <?php else: ?>
+          <div class="market-title-rate">
+            Чтобы оставить отзыв, сначала
+            <a href="<?=Url::to(["/user/singin"])?>">регистрация</a>
+            /
+            <a href="<?=Url::to(["/user/login"])?>">войдите</a>
+          </div>
+    <?php endif; ?>
+        </div>
+      </div>
         <?php
         $js = <<<JS
+        $('.ch-rate-a').click(function(e) {
+          $('.modal-title').html("Изменить отзыв");
+          $('.input-will-change').html("<form class='change-your-comment'></form>");
+        });
+        $('.market-inp-range').mousemove(function(e) {
+          var a = "";
+          for(i = 0; i < $('.market-inp-range').val(); i++) a += "★";
+          $('.count-stars').text(a);
+          a = "";
+        });
+        $('.market-inp-r').submit(function(e) {
+          e.preventDefault();
+          var name = $('.market-inp-name').val();
+          var rate = $('.market-inp-rate').val();
+          var productId = $id;
+          var stars = $('.market-inp-range').val();
+          $.ajax({
+              url: '/cheats/rateadd',
+              method: 'GET',
+              data: {
+                name: name,
+                message: rate,
+                stars: stars,
+                productid: productId,
+              },
+          }).done(function(data) {
+            $('.market-made-rate').html(data);
+            $('.market-inp-name').val("");
+            $('.market-inp-rate').val("");
+            setTimeout("document.location = document.location", 1000);
+          });
+        });
         var multiItemSlider = (function () {
 
            function _isElementVisible(element) {

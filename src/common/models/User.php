@@ -83,6 +83,11 @@ class User extends Model
         return Users::findOne($id);
     }
 
+    public function getByUsername($username)
+    {
+        return Users::findOne(['username' => $username]);
+    }
+
     public function checkLogin($login, $password)
     {
         if (!empty(Users::find()->where(['username' => $login])->one())) {

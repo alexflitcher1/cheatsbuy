@@ -4,6 +4,8 @@ namespace frontend\controllers;
 
 use yii\web\Controller;
 use yii\web\Cookie;
+use common\models\User;
+use frontend\models\Rates;
 use Yii;
 
 class CheatsController extends Controller
@@ -38,6 +40,31 @@ class CheatsController extends Controller
 								break;
 				}
 				return $this->render("rpage", ['error' => $error]);
+	}
+
+	public function actionRateadd($name, $message, $stars, $productid)
+	{
+			$model = new User();
+		  $this->layout = 'index2';
+			$userid = $model->
+			getByUsername(Yii::$app->request->cookies->getValue("username"));
+			$uid = $userid->id;
+			$rate = new Rates();
+			$rate->id = NULL;
+			$rate->userid = $uid;
+			$rate->product_id = $productid;
+			$rate->stars = $stars;
+			$rate->message = $message;
+			$rate->time_published = date("Y-m-d H:i:s", time());
+			$result = $rate->save();
+			$result = $result ?
+			"Ваш отзыв добавлен" : "Произошла ошибка, попробуйте позже";
+	    return $this->render("rateadd", ['rate' => $result]);
+	}
+
+	public function actionRatechange($message, $stars, $id)
+	{
+	    
 	}
 
 
