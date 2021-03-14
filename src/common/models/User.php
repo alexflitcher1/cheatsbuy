@@ -4,6 +4,7 @@ namespace common\models;
 use Yii;
 use yii\base\Model;
 use frontend\models\Users;
+use frontend\models\Rates;
 use frontend\models\Salles;
 
 class User extends Model
@@ -146,8 +147,12 @@ class User extends Model
         if ($user) {
             $hacks = Salles::find()->
             where(['author_id' => $user->id])->all();
+            $rates = Rates::find()->
+            where(['userid' => $user->id])->all();
             for ($i = 0; $i < count($hacks); $i++)
                 $hacks[$i]->delete();
+            for($i = 0; $i < count($rates); $i++)
+                $rates[$i]->delete();
             $user->delete();
             $this->exit();
         } else

@@ -1,8 +1,8 @@
--- MariaDB dump 10.18  Distrib 10.5.8-MariaDB, for Linux (x86_64)
+-- MySQL dump 10.17  Distrib 10.3.25-MariaDB, for debian-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: cheats
 -- ------------------------------------------------------
--- Server version	10.5.8-MariaDB
+-- Server version	10.3.25-MariaDB-0ubuntu0.20.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -55,7 +55,7 @@ CREATE TABLE `rates` (
   `message` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `time_published` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -64,7 +64,7 @@ CREATE TABLE `rates` (
 
 LOCK TABLES `rates` WRITE;
 /*!40000 ALTER TABLE `rates` DISABLE KEYS */;
-INSERT INTO `rates` VALUES (1,31,2,5,'Топ','2020-12-12 12:12:00'),(2,30,2,5,'Топs','2020-12-12 12:12:00'),(3,30,2,2,'Топs','2020-12-12 12:12:00'),(4,31,2,5,'asdf','2021-02-11 20:56:26'),(5,31,2,5,'asdf','2021-02-11 20:59:18'),(6,31,2,5,'asdf','2021-02-11 21:01:18'),(7,31,2,5,'asdf','2021-02-11 21:01:19'),(8,31,2,5,'asdf','2021-02-11 21:01:23'),(9,31,2,5,'asdf','2021-02-11 21:01:53'),(10,31,2,5,'asdf','2021-02-11 21:02:15'),(11,31,1,5,'Антон гей','2021-02-19 12:06:34'),(12,31,1,5,'qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqwe','2021-02-19 12:07:03'),(13,31,1,5,'asdf','2021-02-19 12:15:17'),(14,31,1,1,'asdf','2021-02-19 12:41:30'),(15,31,1,4,'Круто','2021-02-19 12:41:40'),(16,31,37,1,'Слишком дорого, снизьте цену, как минимум, потому что чит не оправдывает своей цены, тот же FREEQN дешевле и массивней по функционалу...','2021-02-19 12:43:14'),(17,31,6,5,'TEST\n','2021-02-21 16:47:00'),(18,31,6,3,'ASDF','2021-02-21 20:03:39');
+INSERT INTO `rates` VALUES (28,31,1,3,'test','2021-02-23 13:12:14'),(29,31,5,3,'hello world','2021-02-23 17:04:35'),(30,30,1,5,'top','2021-03-07 13:32:35');
 /*!40000 ALTER TABLE `rates` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -117,7 +117,7 @@ CREATE TABLE `users` (
   `img` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `money` float NOT NULL,
   PRIMARY KEY (`id`,`username`,`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -139,4 +139,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-02-21 20:11:51
+-- Dump completed on 2021-03-14 13:54:35

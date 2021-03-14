@@ -1,0 +1,1911 @@
+2021-02-22 16:35:58 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: data in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php:1
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php(1): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/CheatsController.php(73): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\CheatsController->actionGetratestars()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 16:35:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46586'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/cheats/getratestars?id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/cheats/getratestars'
+    'PHP_SELF' => '/index.php/cheats/getratestars'
+    'QUERY_STRING' => 'id=12'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=1'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1614011758.3949
+    'REQUEST_TIME' => 1614011758
+]
+2021-02-22 16:36:07 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: data in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php:1
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php(1): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/CheatsController.php(73): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\CheatsController->actionGetratestars()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 16:36:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '13'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46592'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/cheats/getratestars?id=13'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/cheats/getratestars'
+    'PHP_SELF' => '/index.php/cheats/getratestars'
+    'QUERY_STRING' => 'id=13'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=1'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1614011767.3725
+    'REQUEST_TIME' => 1614011767
+]
+2021-02-22 16:36:27 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: data in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php:1
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php(1): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/CheatsController.php(73): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\CheatsController->actionGetratestars()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 16:36:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46598'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/cheats/getratestars?id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/cheats/getratestars'
+    'PHP_SELF' => '/index.php/cheats/getratestars'
+    'QUERY_STRING' => 'id=12'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614011787.7986
+    'REQUEST_TIME' => 1614011787
+]
+2021-02-22 16:36:50 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: data in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php:1
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php(1): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/CheatsController.php(73): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\CheatsController->actionGetratestars()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 16:36:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46604'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/cheats/getratestars?id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/cheats/getratestars'
+    'PHP_SELF' => '/index.php/cheats/getratestars'
+    'QUERY_STRING' => 'id=12'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614011810.6095
+    'REQUEST_TIME' => 1614011810
+]
+2021-02-22 16:36:51 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: data in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php:1
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php(1): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/CheatsController.php(73): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\CheatsController->actionGetratestars()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 16:36:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46606'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/cheats/getratestars?id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/cheats/getratestars'
+    'PHP_SELF' => '/index.php/cheats/getratestars'
+    'QUERY_STRING' => 'id=12'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614011811.3928
+    'REQUEST_TIME' => 1614011811
+]
+2021-02-22 16:36:51 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: data in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php:1
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/cheats/getratestars.php(1): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/CheatsController.php(73): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\CheatsController->actionGetratestars()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 16:36:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '12'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46608'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/cheats/getratestars?id=12'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/cheats/getratestars'
+    'PHP_SELF' => '/index.php/cheats/getratestars'
+    'QUERY_STRING' => 'id=12'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614011811.782
+    'REQUEST_TIME' => 1614011811
+]
+2021-02-22 16:47:19 [127.0.0.1][-][-][error][Error] Error: Object of class frontend\models\Salles could not be converted to string in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:154
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#5 [internal function]: frontend\controllers\MarketController->actionHack()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2021-02-22 16:47:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46984'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614012439.1628
+    'REQUEST_TIME' => 1614012439
+]
+2021-02-22 16:53:17 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 16:53:17 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47208'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=3'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614012797.5816
+    'REQUEST_TIME' => 1614012797
+]
+2021-02-22 17:15:56 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected ')', expecting ';' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:15:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48426'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014156.9169
+    'REQUEST_TIME' => 1614014156
+]
+2021-02-22 17:16:12 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected ')', expecting ';' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:16:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48430'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014172.0751
+    'REQUEST_TIME' => 1614014172
+]
+2021-02-22 17:16:12 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected ')', expecting ';' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:16:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48434'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014172.783
+    'REQUEST_TIME' => 1614014172
+]
+2021-02-22 17:16:17 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected ')', expecting ';' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:16:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48438'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014177.8983
+    'REQUEST_TIME' => 1614014177
+]
+2021-02-22 17:16:18 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected ')', expecting ';' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:16:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48442'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014178.6632
+    'REQUEST_TIME' => 1614014178
+]
+2021-02-22 17:16:24 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected '$mid_value' (T_VARIABLE), expecting ';' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:16:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48446'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014184.3597
+    'REQUEST_TIME' => 1614014184
+]
+2021-02-22 17:16:32 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected '$mid_value' (T_VARIABLE), expecting ';' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:16:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48450'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014192.4576
+    'REQUEST_TIME' => 1614014192
+]
+2021-02-22 17:16:33 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected '$mid_value' (T_VARIABLE), expecting ';' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:16:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48454'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014193.3587
+    'REQUEST_TIME' => 1614014193
+]
+2021-02-22 17:16:42 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected ';', expecting ')' in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:107
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#4 [internal function]: frontend\controllers\MarketController->actionHack()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2021-02-22 17:16:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48458'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=3'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014202.2164
+    'REQUEST_TIME' => 1614014202
+]
+2021-02-22 17:25:09 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Division by zero in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:145
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php(145): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\MarketController->actionHack()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 17:25:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '18'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49014'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=18'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=18'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/index'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614014709.0466
+    'REQUEST_TIME' => 1614014709
+]
+2021-02-22 17:26:48 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:26:48 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49074'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=18'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614014808.6908
+    'REQUEST_TIME' => 1614014808
+]
+2021-02-22 17:27:11 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:27:11 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49208'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=4'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614014831.6363
+    'REQUEST_TIME' => 1614014831
+]
+2021-02-22 17:28:16 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:28:16 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49384'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=19'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614014896.4596
+    'REQUEST_TIME' => 1614014896
+]
+2021-02-22 17:28:24 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:28:24 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49414'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=19'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614014904.8946
+    'REQUEST_TIME' => 1614014904
+]
+2021-02-22 17:29:02 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:29:02 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49420'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=19'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014942.8385
+    'REQUEST_TIME' => 1614014942
+]
+2021-02-22 17:29:06 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:29:06 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49424'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=19'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614014946.0148
+    'REQUEST_TIME' => 1614014946
+]
+2021-02-22 17:29:08 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:29:08 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49452'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=19'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614014948.6345
+    'REQUEST_TIME' => 1614014948
+]
+2021-02-22 17:29:24 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:29:24 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49456'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=19'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614014964.37
+    'REQUEST_TIME' => 1614014964
+]
+2021-02-22 17:30:13 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:30:13 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49542'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=19'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614015013.5317
+    'REQUEST_TIME' => 1614015013
+]
+2021-02-22 17:31:04 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:31:04 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49544'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=19'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D; _csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614015064.2299
+    'REQUEST_TIME' => 1614015064
+]
+2021-02-22 17:37:12 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php:41
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(41): yii\base\ErrorHandler->handleError()
+#1 [internal function]: frontend\controllers\MarketController->actionHack()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-02-22 17:37:12 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+    'username' => '469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba:2:{i:0;s:8:\"username\";i:1;s:15:\"alexflitcher123\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50316'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/hack?id=34'
+    'HTTP_COOKIE' => '_csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D; username=469fbe928502b69c72cbc0f05710e89fb5c3f301cda2cbe5987b025a3e815e6ba%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A15%3A%22alexflitcher123%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614015432.4602
+    'REQUEST_TIME' => 1614015432
+]
+2021-02-22 17:42:08 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/user/singine.php:1
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/user/singine.php(1): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/UserController.php(105): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\UserController->actionSingine()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 17:42:08 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'User' => [
+        'username' => 'tester'
+        'email' => 'tester@cheatsbuy.com'
+        'password_hash' => 'metasploit'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50876'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/user/singine'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/user/singine'
+    'PHP_SELF' => '/index.php/user/singine'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'qxr8qNYciylwD_oDcSFJIL468B0ELFw6jo7ANerlsrfof4-Z4H7UegJoylETZjwV2HeVWFdJLQjeuu1bu5Dc3A=='
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_LENGTH' => '99'
+    'HTTP_CONTENT_LENGTH' => '99'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/user/singin'
+    'HTTP_COOKIE' => '_csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1614015728.6211
+    'REQUEST_TIME' => 1614015728
+]
+2021-02-22 17:43:55 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to access array offset on value of type null in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php:75
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/market/hack.php(75): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/MarketController.php(51): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\MarketController->actionHack()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-22 17:43:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ces16b_Srg0RbGu5fMeESeq2P4-nQunk\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51148'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/market/hack?id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/market/hack'
+    'PHP_SELF' => '/index.php/market/hack'
+    'QUERY_STRING' => 'id=2'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/market/index'
+    'HTTP_COOKIE' => '_csrf-frontend=51bb19a5f2e68feee4c36a31bd2d6db0417e0898c1b3b65ef9ffcbbbad09fe88a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Ces16b_Srg0RbGu5fMeESeq2P4-nQunk%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614015835.337
+    'REQUEST_TIME' => 1614015835
+]
+2021-02-23 13:07:42 [127.0.0.1][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined offset: 0 in /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/user/singine.php:1
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/frontend/views/user/singine.php(1): yii\base\ErrorHandler->handleError()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(348): require('/home/alexf/\xD0\x94\xD0...')
+#2 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(410): yii\base\View->render()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/UserController.php(105): yii\base\Controller->render()
+#6 [internal function]: frontend\controllers\UserController->actionSingine()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#10 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#11 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#12 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-02-23 13:07:42 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'User' => [
+        'username' => 'qwer'
+        'email' => 'qwer@qwer.qwer'
+        'password_hash' => 'qwer'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '90a6c753e602010807542239ccf948ccde2885ec8eb6dd5713a5bff928562d27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DvidrH9vsENRkBJ0SwqHQGduvefRNXGZ\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49796'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/user/singine'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/user/singine'
+    'PHP_SELF' => '/index.php/user/singine'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'gM_oQWjWs0vFTFbOAD9LxmKOwEz8qrum1qBmEVqDx1PEuYElGp6KPbYJGJxrfQH2MfmxBK3t39OgxQBDFNuACQ=='
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_LENGTH' => '85'
+    'HTTP_CONTENT_LENGTH' => '85'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/user/singin'
+    'HTTP_COOKIE' => '_csrf-frontend=90a6c753e602010807542239ccf948ccde2885ec8eb6dd5713a5bff928562d27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DvidrH9vsENRkBJ0SwqHQGduvefRNXGZ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1614085662.5746
+    'REQUEST_TIME' => 1614085662
+]
+2021-02-23 13:10:53 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected 'use' (T_USE), expecting ';' or ',' in /home/alexf/Документы/myprojects/cheatsbuy/common/models/User.php:8
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/frontend/controllers/UserController.php(113): spl_autoload_call()
+#2 [internal function]: frontend\controllers\UserController->actionCabinet()
+#3 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#4 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#5 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction()
+#6 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction()
+#7 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#8 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2021-02-23 13:10:53 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '90a6c753e602010807542239ccf948ccde2885ec8eb6dd5713a5bff928562d27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DvidrH9vsENRkBJ0SwqHQGduvefRNXGZ\";}'
+    'username' => 'b7c67aa251afb009f5a817a460e4db3c1239b815a7a2fdcf7caca344d0617a86a:2:{i:0;s:8:\"username\";i:1;s:4:\"qwer\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49872'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/user/cabinet'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/user/cabinet'
+    'PHP_SELF' => '/index.php/user/cabinet'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/cheats/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-frontend=90a6c753e602010807542239ccf948ccde2885ec8eb6dd5713a5bff928562d27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DvidrH9vsENRkBJ0SwqHQGduvefRNXGZ%22%3B%7D; username=b7c67aa251afb009f5a817a460e4db3c1239b815a7a2fdcf7caca344d0617a86a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A4%3A%22qwer%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1614085853.4855
+    'REQUEST_TIME' => 1614085853
+]
+2021-02-23 13:11:21 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Request.php:290
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2021-02-23 13:11:21 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '90a6c753e602010807542239ccf948ccde2885ec8eb6dd5713a5bff928562d27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DvidrH9vsENRkBJ0SwqHQGduvefRNXGZ\";}'
+    'username' => 'b7c67aa251afb009f5a817a460e4db3c1239b815a7a2fdcf7caca344d0617a86a:2:{i:0;s:8:\"username\";i:1;s:4:\"qwer\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49990'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/pay/put'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/pay/put'
+    'PHP_SELF' => '/index.php/pay/put'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/user/cabinet'
+    'HTTP_COOKIE' => '_csrf-frontend=90a6c753e602010807542239ccf948ccde2885ec8eb6dd5713a5bff928562d27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DvidrH9vsENRkBJ0SwqHQGduvefRNXGZ%22%3B%7D; username=b7c67aa251afb009f5a817a460e4db3c1239b815a7a2fdcf7caca344d0617a86a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A4%3A%22qwer%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614085881.4795
+    'REQUEST_TIME' => 1614085881
+]
+2021-02-23 13:11:24 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Request.php:290
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2021-02-23 13:11:24 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => '90a6c753e602010807542239ccf948ccde2885ec8eb6dd5713a5bff928562d27a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"DvidrH9vsENRkBJ0SwqHQGduvefRNXGZ\";}'
+    'username' => 'b7c67aa251afb009f5a817a460e4db3c1239b815a7a2fdcf7caca344d0617a86a:2:{i:0;s:8:\"username\";i:1;s:4:\"qwer\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50004'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/pay/get'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/pay/get'
+    'PHP_SELF' => '/index.php/pay/get'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/user/cabinet'
+    'HTTP_COOKIE' => '_csrf-frontend=90a6c753e602010807542239ccf948ccde2885ec8eb6dd5713a5bff928562d27a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22DvidrH9vsENRkBJ0SwqHQGduvefRNXGZ%22%3B%7D; username=b7c67aa251afb009f5a817a460e4db3c1239b815a7a2fdcf7caca344d0617a86a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A4%3A%22qwer%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1614085884.4305
+    'REQUEST_TIME' => 1614085884
+]
+2021-03-07 13:32:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Request.php:290
+Stack trace:
+#0 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/web/Application.php(83): yii\web\Request->resolve()
+#1 /home/alexf/Документы/myprojects/cheatsbuy/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest()
+#2 /home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2021-03-07 13:32:45 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-frontend' => 'a2b40d04416fb57ff7f46f0c674b21b3eb84d2d8dd607a03a68259a0ec5e8d06a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ZlYHjURzBqQdP160NCeYmM8ygxD4Pxig\";}'
+    'username' => '500b4cc2ba6d24248da76802db7eafcad480689f16ed6741478fba0bead46757a:2:{i:0;s:8:\"username\";i:1;s:12:\"alexflitcher\";}'
+    'auth' => '8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda:2:{i:0;s:4:\"auth\";i:1;b:1;}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56092'
+    'SERVER_SOFTWARE' => 'PHP 7.4.3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/pay/put'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/alexf/Документы/myprojects/cheatsbuy/frontend/web/index.php'
+    'PATH_INFO' => '/pay/put'
+    'PHP_SELF' => '/index.php/pay/put'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/user/cabinet'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-US;q=0.8,ru;q=0.7'
+    'HTTP_COOKIE' => '_csrf-frontend=a2b40d04416fb57ff7f46f0c674b21b3eb84d2d8dd607a03a68259a0ec5e8d06a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ZlYHjURzBqQdP160NCeYmM8ygxD4Pxig%22%3B%7D; username=500b4cc2ba6d24248da76802db7eafcad480689f16ed6741478fba0bead46757a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22username%22%3Bi%3A1%3Bs%3A12%3A%22alexflitcher%22%3B%7D; auth=8d91098bff6015db1e8ec1d0bd4b7b92c58a2e7c5b05dfd3c9a35793391b86fda%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22auth%22%3Bi%3A1%3Bb%3A1%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1615123965.6957
+    'REQUEST_TIME' => 1615123965
+]
